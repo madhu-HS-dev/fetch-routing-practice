@@ -1,0 +1,58 @@
+/* Write your CSS code here */
+.BlogItemContainer {
+  border: solid 1px #d3d3d3;
+  border-radius: 8px;
+  margin: 20px;
+  padding: 10px;
+}
+
+@media screen and (min-width: 575px) {
+  .BlogItemContainer {
+    display: flex;
+  }
+}
+
+.blog-item-image {
+  width: 100%;
+  height: 170px;
+  border-radius: 5px;
+}
+
+@media screen and (min-width: 575px) {
+  .blog-item-image {
+    width: 250px;
+    height: 180px;
+    margin-right: 20px;
+  }
+}
+
+.author-container {
+  display: flex;
+  align-items: center;
+}
+
+.avatar-url {
+  width: 30px;
+  border-radius: 100%;
+  margin-right: 10px;
+}
+
+.blog-item-topic {
+  color: #8e8e8e;
+  font-family: 'Roboto';
+}
+
+.blog-item-heading {
+  color: #000000;
+  font-family: 'Roboto';
+  font-size: 15px;
+}
+
+.blog-item-author {
+  color: #8e8e8e;
+  font-family: 'Roboto';
+}
+
+.blog-item-link {
+  text-decoration: none;
+}

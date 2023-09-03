@@ -1,0 +1,14 @@
+/* Write your CSS code here */
+.blog-Data-Details-container {
+  padding: 10px;
+}
+
+.content {
+  color: #2f4f4f;
+  font-family: 'Roboto';
+}
+
+.blog-image {
+  width: 100%;
+  border-radius: 10px;
+}
